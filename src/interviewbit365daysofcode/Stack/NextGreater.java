@@ -32,7 +32,7 @@ public class NextGreater {
         int[] input = {4, 5, 2, 10};
         int[] result = solution.nextGreater(input);
 
-        System.out.println("Previous greater elements array:");
+        System.out.println("Next greater elements array:");
         for (int num : result) {
             System.out.print(num + " ");
         }
